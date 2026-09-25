@@ -1,0 +1,37 @@
+#Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+#Editor-based HTTP Client requests
+/httpRequests/
+
+
+#IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+#Maven
+target/
+.mvn/
+!.mvn/wrapper/
+
+# Allure
+allure-results/
+allure-report/
+
+#Gradle (optional, harmless to keep)
+.gradle/
+build/
+
+#Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#Environment / Secrets
+*.env
+*.local
+credentials.json
