@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TBC Digital Suite" parallel="classes" thread-count="2" data-provider-thread-count="2">
+
+    <test name="TBC Digital Automation">
+        <classes>
+            <class name="ge.tbc.testautomation.tests.ConsumerLoanApiToUiTest"/>
+            <class name="ge.tbc.testautomation.tests.CurrencyExchangeApiTest"/>
+            <class name="ge.tbc.testautomation.tests.CurrencyExchangeLocalizationTest"/>
+            <class name="ge.tbc.testautomation.tests.LanguageSwitcherTest"/>
+            <class name="ge.tbc.testautomation.tests.LoanCalculatorDataDrivenTest"/>
+            <class name="ge.tbc.testautomation.tests.LoanCalculatorTest"/>
+            <class name="ge.tbc.testautomation.tests.LoansPageNavigationTest"/>
+            <class name="ge.tbc.testautomation.tests.RegionsApiTest"/>
+            <class name="ge.tbc.testautomation.tests.BranchSearchNetworkTest"/>
+            <class name="ge.tbc.testautomation.tests.CurrencyExchangeNegativeApiTest"/>
+            <class name="ge.tbc.testautomation.tests.SearchFunctionalityTest"/>
+        </classes>
+    </test>
+
+</suite>
