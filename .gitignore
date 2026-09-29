@@ -35,3 +35,8 @@ desktop.ini
 *.env
 *.local
 credentials.json
+
+# Databases
+*.mv.db
+*.h2.db
+data/
